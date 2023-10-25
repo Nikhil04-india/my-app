@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "wscats.cors-browser",
+        "jabedhossain.web-preview",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "formulahendry.code-runner",
+        "ms-mssql.data-workspace-vscode",
+        "figma.figma-vscode-extension"
+    ]
+}
