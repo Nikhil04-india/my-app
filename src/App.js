@@ -145,6 +145,9 @@ function App() {
  
   function plus(e) { 
     e.preventDefault(); 
+    // const inputVal = inputRef.current.value; 
+    // const newResult = result + Number(inputVal); 
+    // setResult(newResult); 
     setResult((result) => result + Number(inputRef.current.value)); 
   }; 
  
@@ -165,13 +168,13 @@ function App() {
  
   function resetInput(e) { 
     e.preventDefault(); 
-  inputRef.current.value = "";  
-  }; 
+    inputRef.current.value = 0;  
+  } 
  
   function resetResult(e) { 
   	e.preventDefault(); 
   setResult(0); 
-  }; 
+  } 
  
   return ( 
     <div className="App"> 
@@ -198,7 +201,7 @@ function App() {
       </form> 
     </div> 
   ); 
-};
+}
  
 export default App; 
 
